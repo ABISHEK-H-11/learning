@@ -1,9 +1,13 @@
 package com.learningMicroservice.order_service.dumy;
 
 public class dummy {
-
-    static final int  a = 10;
-    static final int  b = 20;
-    static final int  c = 30;
-
+    final Integer a = 1000000;
+    final Integer b = 1000000;
+    public static int add(int a, int b) {
+        return a + b;
+    }
+    public static int adds(int a, int b) {
+        return a + b;
+    }
+    
 }
