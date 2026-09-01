@@ -9,5 +9,7 @@ public class dummy {
     public static int adds(int a, int b) {
         return a + b;
     }
-    
+
+    public dummy() {
+    }
 }
